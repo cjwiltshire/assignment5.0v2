@@ -436,7 +436,12 @@ if (isset($_POST["btnSubmit"])) {
                                    <?php if ($cashERROR) print 'class="mistake"'; ?>
                                    onfocus="this.select()" 
                                    autofocus>
-                        </label>               
+                           
+                        </label>    
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Balance in checking account as of today plus checks received from customers that have gone undeposited">
+                            <figcaption>  </figcaption>
+                            </figure>
                                                   
                         <label for="accountsreceivable" class="required">Accounts Receivable
                             <input type="number" id="accountsreceivable" name="accountsreceivable"
@@ -446,6 +451,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Money owed to you through sales or services by the company">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="allowancefordoubtfulaccounts" class="required">Allowance for Doubtful Accounts
                             <input type="number" id="allowancefordoubtfulaccounts" name="allowancefordoubtfulaccounts"
                                    value=""
@@ -454,6 +463,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Money from accounts recievable estimated to go unpaid">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="inventory" class="required">Inventory 
                             <input type="number" id="inventory" name="inventory"
                                    value=""
@@ -462,6 +475,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="The amount it cost to purchase your remaining merchandise on hand">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="supplies" class="required">Supplies
                             <input type="number" id="supplies" name="supplies"
                                    value=""
@@ -470,6 +487,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label> 
+                            <figure>
+                                <img src="i.jpg" alt="info" title="The cost of remaining supplies the company has on hand. Items that will be turned into a finished product and sold">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="prepaidrent" class="required">Prepaid Rent
                             <input type="number" id="prepaidrent" name="prepaidrent"
                                    value=""
@@ -478,6 +499,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Cost of remaining months of insurance prepaid">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="prepaidinsurance" class="required">Prepaid Insurance 
                             <input type="number" id="prepaidinsurance" name="prepaidinsurance"
                                    value=""
@@ -486,6 +511,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Cost of remaining rent Prepaid">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="land" class="required">Land
                             <input type="number" id="land" name="land"
                                    value=""
@@ -494,6 +523,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Cost of acquiring and preparing land for use">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="buildings" class="required">Buildings 
                             <input type="number" id="buildings" name="buildings"
                                    value=""
@@ -502,6 +535,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Cost of acquiring and preparing buildings for use">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="equipment" class="required">Equipment 
                             <input type="number" id="equipment" name="equipment"
                                    value=""
@@ -510,6 +547,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Cost to acquire and prepare equipment for use">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="vehicles" class="required">Vehicles 
                             <input type="number" id="vehicles" name="vehicles"
                                    value=""
@@ -518,6 +559,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>    
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Cost to acquire and prepare vehicles for use">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="accudepbuilding" class="required">Accumulated Depreciation Buildings 
                             <input type="number" id="accudepbuilding" name="accudepbuilding"
                                    value=""
@@ -526,6 +571,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label> 
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Sum of depreciation estimates of buildings">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="accudepequipment" class="required">Accumulated Depreciation Equipment 
                             <input type="number" id="accudepequipment" name="accudepequipment"
                                    value=""
@@ -534,6 +583,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Sum of depreciation estimates of equipment">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="accudepvehicles" class="required">Accumulated Depreciation Vehicles 
                             <input type="number" id="accudepvehicles" name="accudepvehicles"
                                    value=""
@@ -542,6 +595,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Sum of depreciation estimates of vehicles">
+                            <figcaption>  </figcaption>
+                            </figure>
                         </fieldset><!-- ends assets-->
                         <fieldset class="liabilities">
                         <label for="notespayable" class="required">Notes Payable 
@@ -552,6 +609,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Long term debt taken out by the company">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="accountspayable" class="required">Accounts Payable 
                             <input type="number" id="accountspayable" name="accountspayable"
                                    value=""
@@ -560,6 +621,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Debt owed to suppliers or merchandisers">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="wagespayable" class="required">Wages Payable 
                             <input type="number" id="wagespayable" name="wagespayable"
                                    value=""
@@ -568,6 +633,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Amounts owed to workers for labor">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="interestpayable" class="required">Interest Payable 
                             <input type="number" id="interestpayable" name="interestpayable"
                                    value=""
@@ -576,6 +645,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Amounts accumulated through interest, now owed">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="unearnedrevenue" class="required">Unearned Revenue 
                             <input type="number" id="uneaarnedrevenue" name="unearnedrevenue"
                                    value=""
@@ -584,6 +657,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Amounts received in advance for delivering goods. When goods are delivered this becomes a sales revenue and is subtracted from here">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="mortgagepayable" class="required">Mortgage Payable 
                             <input type="number" id="mortgagepayable" name="mortgagepayable"
                                    value=""
@@ -592,6 +669,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Loan with a lien on real estate until paid back">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="bondspayable" class="required">Bonds Payable 
                             <input type="number" id="bondspayable" name="bondspayable"
                                    value=""
@@ -600,6 +681,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Issued to pay back long term debt and pays interest. (may not be used unless a larger business)">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="discountonbondspayable" class="required">Discount on Bonds Payable 
                             <input type="number" id="discountonbondspayable" name="discountonbondspayable"
                                    value=""
@@ -608,6 +693,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Amount from issuing bonds at above or below face ">
+                            <figcaption>  </figcaption>
+                            </figure>
                         </fieldset> <!-- ends liabilities--> 
                         <fieldset class="stockholdersequity">
                         <label for="commonstock" class="required">Common Stock 
@@ -618,6 +707,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Money paid in by investors for partial ownership (assume no par value)`">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="retainedearnings" class="required">Retained Earnings                            
                             <input type="number" id="retainedearnings" name="retainedearnings"
                                    value=""
@@ -626,6 +719,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="The amount of cash retained by the company over time through sales less dividends ">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="treasurystock" class="required">Treasury Stock                            
                             <input type="number" id="treasurystock" name="treasurystock"
                                    value=""
@@ -634,6 +731,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="The amount of stock at purchase price bought back by the company">
+                            <figcaption>  </figcaption>
+                            </figure>
                         </fieldset> <!-- ends stockequity -->
                         <fieldset class="revenue">
                         <label for="salesrevenue" class="required">Sales Revenue                            
@@ -644,6 +745,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Revenue earned through the sale of products">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="servicerevenue" class="required">Service Revenue                            
                             <input type="number" id="servicerevenue" name="servicerevenue"
                                    value=""
@@ -652,6 +757,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Revenue earned by performing a service">
+                            <figcaption>  </figcaption>
+                            </figure>
                         </fieldset><!--ends revenues-->
                         <fieldset class="expenses">
                         <label for="costofgoodssold" class="required">Cost of Goods Sold                          
@@ -662,6 +771,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="The cost of goods sold for profit. Common methods (LIFO FIFO WEIGHTED AVG)">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="payrollexpense" class="required">Payroll Expense                          
                             <input type="number" id="payrollexpense" name="payrollexpense"
                                    value=""
@@ -670,6 +783,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Amount of money spent on contracting out to a payroll service">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="marketingexpense" class="required">Marketing Expense                          
                             <input type="number" id="marketingexpense" name="marketingexpense"
                                    value=""
@@ -678,6 +795,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label> 
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Amount of money spent on marketing campaigns">
+                            <figcaption>  </figcaption>
+                            </figure>
                         <label for="otherexpense" class="required">Other Expenses                          
                             <input type="number" id="otherexpense" name="otherexpense"
                                    value=""
@@ -686,6 +807,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
+                            <figure>
+                                <img src="i.jpg" alt="info" title="others">
+                            <figcaption>  </figcaption>
+                            </figure>
                             
                             
                         </fieldset><!--ends expenses-->
@@ -698,7 +823,10 @@ if (isset($_POST["btnSubmit"])) {
                                    onfocus="this.select()" 
                                    autofocus>
                         </label>
-                            
+                            <figure>
+                                <img src="i.jpg" alt="info" title="Amount of money spent on marketing campaigns">
+                            <figcaption>  </figcaption>
+                            </figure>
                         </fieldset><!--ends extraordinary gains-->
                         
                     </fieldset> <!-- ends accounts -->
